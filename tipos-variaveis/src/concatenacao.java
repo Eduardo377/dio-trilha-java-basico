@@ -1,4 +1,4 @@
-public class concatenacao {
+public class Concatenacao {
     public static void main(String[] args) {
 
         String nomeCompleto = "LINGUAGEM" + "JAVA";
