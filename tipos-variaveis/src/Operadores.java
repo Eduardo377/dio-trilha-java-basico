@@ -3,20 +3,29 @@ import java.text.NumberFormat;
 
 public class Operadores {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        double a, b;
+/*      Scanner scan = new Scanner(System.in);
+        double a, b;  */
+        int numero = 5;
+        System.out.println(numero + " " + (-numero));
 
-        System.out.println("Digite o primeiro valor!");
+        numero = -numero;
+        System.out.println(numero);
+
+        numero = numero * -1;
+
+        System.out.println(numero);
+
+/*      System.out.println("Digite o primeiro valor!");
         a = scan.nextDouble();
         System.out.println("Digite o segundo valor!");
-        b = scan.nextDouble();
+        b = scan.nextDouble(); */
 
-        double verificacaoDeResto = verificacaoDeResto(a, b);
+/*      double verificacaoDeResto = verificacaoDeResto(a, b); 
 
         System.out.println("Sobra: " + NumberFormat.getCurrencyInstance().format(verificacaoDeResto));
-        System.out.println("Hello world!");
+        System.out.println("Hello world!");  */
     }
-    public static double verificacaoDeResto(double a, double b) {
+/*    public static double verificacaoDeResto(double a, double b) {
         return a % b;
-    }
+    }  */
 }
